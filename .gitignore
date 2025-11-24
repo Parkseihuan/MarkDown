@@ -1,0 +1,31 @@
+# 원본 파일 (용량 절약을 위해 Git에서 제외)
+regulations_source/hwp/
+regulations_source/docx/
+regulations_source/new/
+
+# 백업 파일
+*.backup.*
+
+# 임시 파일
+temp.md
+temp.docx
+*.tmp
+/tmp/
+
+# 한글 작업 파일 (필요시 주석 처리)
+# *.hwp
+# *.~hwp
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# 기타
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
