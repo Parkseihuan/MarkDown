@@ -4,10 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'regulations/**'
-      - 'mkdocs.yml'
-      - '.github/workflows/deploy-mkdocs.yml'
   workflow_dispatch:
 
 permissions:
